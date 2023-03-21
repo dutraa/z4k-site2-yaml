@@ -1,11 +1,9 @@
 global:
   imagePullSecret: "Y2JkYmVlYTQtMGNkMS00OTNkLWFmOTktNmNiYzYxOGVjZDEwOlRaRDZFSFpYamc1YU13aExDZDlBQklBb0lkQXJHRUtUcWdYY1cwVTc="
   authentication:
-    adminUser: "zerto"
-    adminPassword: "zerto"
-    managementUser: "zerto"
-    managementPassword: "zerto"
-
+    initialAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwYWI2MjFmMS1lZGRmLTQ5OGQtOGRiMy0zZDIzNThkNDg2ZGUifQ.eyJleHAiOjE2OTMzMDQwOTcsImlhdCI6MTY2MTc2ODA5NywianRpIjoiN2FhZWVhNzUtZDdkOC00NjI4LTljZTMtMjZjZDc3NWQ2Y2I0IiwiaXNzIjoiaHR0cHM6Ly96a20uejRrLnplcnRvLmNvbS9hdXRoL3JlYWxtcy96ZXJ0byIsImF1ZCI6Imh0dHBzOi8vemttLno0ay56ZXJ0by5jb20vYXV0aC9yZWFsbXMvemVydG8iLCJ0eXAiOiJJbml0aWFsQWNjZXNzVG9rZW4ifQ.VA2T-9w94q5m0dnMWOgyDiYoWW6__J4Z0sT6XKnjdJo" #generated from Keycloak
 zkm-px:
   config:
-    siteId: "gke_site2"
+    siteId: "eks_site2"
+    zkmUrl: "https://20.124.51.79/zkm"
+    zkeycloakUrl: "https://20.124.51.79/auth"
